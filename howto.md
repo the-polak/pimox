@@ -34,7 +34,6 @@ The default user in [Proxmox](https://pve.proxmox.com/wiki/User_Management) is `
 
 Alternatively:
 
-<img width="610" alt="image" src="https://gist.github.com/user-attachments/assets/b5c41dd9-0854-40f2-87c3-170e958bfaa7">
 
 ```bash
 kielbasa@pimox5:~ $ sudo passwd root
@@ -56,7 +55,6 @@ cp /etc/hosts /etc/hosts.bak
 ```bash
 nano /etc/hosts
 ```
-<img width="816" alt="image" src="https://gist.github.com/user-attachments/assets/76123e51-7b06-46f0-92a4-9dae63e2ae04">
 
 ```
 127.0.0.1 localhost pimox5
@@ -66,11 +64,10 @@ ff02::1 ip6-allnodes
 ff02::2 ip6-allrouters
 ```
 
- [!IMPORTANT]  
-> Replace `192.168.1.xx` with the static IP you assigned your Pi in your router.
+> [!IMPORTANT]  
+> Replace `192.168.1.xx` with your static IP.
 
 ##   6 - Edit your hostname
-![image](https://gist.github.com/user-attachments/assets/bc8e1862-ae5e-4e12-866e-ebb8021bcda5)
 
 
 ```bash
@@ -152,7 +149,7 @@ iface eth0 inet manual
 ```
 
 > [!IMPORTANT]  
-> Replace `192.168.1.xx` with the static IP you assigned your Pi in your router.
+> Replace `192.168.1.xx` with your static IP.
 
 ##  11 - Add DNS server
 
@@ -168,7 +165,7 @@ Reboot your Pi again with `reboot`.
 You can now reach your Proxmox UI on `http://pimox5.local:8006` or `http://192.168.1.xx:8006` and login with the username `root` and the password you set in   11.
 
 > [!IMPORTANT]  
-> Replace `192.168.1.xx` with the static IP you assigned your Pi in your router.
+> Replace `192.168.1.xx` with your static IP.
 
 # Post Install
 
