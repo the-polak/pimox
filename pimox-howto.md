@@ -15,7 +15,7 @@ Install "RPi OS Lite 64-bit" with [Raspberry Pi Imager](https://www.raspberrypi.
 ##   2 - Network config
 
 Assign your Pi a static IP in your router, then SSH into the Pi and launch the network config GUI with `nmtui` and adjust to the static ip.
-- Alternatively, reserve an IP on our router. See this example: [https://forums.serverbuilds.net/t/guide-static-ip-addresses-in-pfsense-static-dhcp/5779](https://forums.serverbuilds.net/t/guide-static-ip-addresses-in-pfsense-static-dhcp/5779)
+- EXAMPLE: Static Reservation [https://forums.serverbuilds.net/t/guide-static-ip-addresses-in-pfsense-static-dhcp/5779](https://forums.serverbuilds.net/t/guide-static-ip-addresses-in-pfsense-static-dhcp/5779)
 
 ##   3 - Install updates
 
@@ -34,6 +34,7 @@ The default user in [Proxmox](https://pve.proxmox.com/wiki/User_Management) is `
 
 Alternatively:
 
+![rootpw](/assets/root-pass1.png)
 
 ```bash
 kielbasa@pimox5:~ $ sudo passwd root
@@ -55,7 +56,7 @@ cp /etc/hosts /etc/hosts.bak
 ```bash
 nano /etc/hosts
 ```
-
+![hosts](/assets/hosts.png)
 ```
 127.0.0.1 localhost pimox5
 192.168.1.xx pimox5
@@ -73,6 +74,7 @@ ff02::2 ip6-allrouters
 ```bash
 nano /etc/hostname
 ```
+![hosts](/assets/hostname.png)
 
 ```bash
 pimox5
@@ -123,12 +125,12 @@ cp /etc/network/interfaces /etc/network/interfaces.bak
 ```bash
 nano /etc/network/interfaces
 ```
-
+![ntwk-inf](/assets/ntwk-inf.png)
 
 ```
 # interfaces(5) file used by ifup(8) and ifdown(8)
 # Include files from /etc/network/interfaces.d:
-# source /etc/network/interfaces.d/*                <------------ Be sure to comment this line out!
+# source /etc/network/interfaces.d/*                
 
 
 
@@ -149,7 +151,8 @@ iface eth0 inet manual
 ```
 
 > [!IMPORTANT]  
-> Replace `192.168.1.xx` with your static IP.
+> Replace `192.168.1.xx` with your static IP. <br>
+> Comment out `# source /etc/network/interfaces.d/`
 
 ##  11 - Add DNS server
 
