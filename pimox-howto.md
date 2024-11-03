@@ -167,22 +167,8 @@ You can now reach your Proxmox UI on `http://pimox5.local:8006` or `http://192.1
 > [!IMPORTANT]  
 > Replace `192.168.1.xx` with your static IP.
 
-# Post Install
+# [Post Install](/pimox-post.md)
 
-## Glorious Proxmox Helper Script
-### Post Install Script
-- [https://tteck.github.io/Proxmox/](https://tteck.github.io/Proxmox/)  
-
-![image](https://gist.github.com/user-attachments/assets/3fa81a9d-71e3-4c57-a745-9cd660d87f9c)
-
-
-```bash
-# Run as root
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/post-pve-install.sh)"
-```
-
-### LXC Images
-[https://stevetech.me/posts/find-arm64-lxc-templates](https://stevetech.me/posts/find-arm64-lxc-templates)
 
 ---
 ##### Sources
