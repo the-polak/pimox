@@ -11,7 +11,7 @@ tags: [rpi5, howto, pve]
 ### Post Install Script
 - [https://tteck.github.io/Proxmox/](https://tteck.github.io/Proxmox/)  
 
-![image](https://gist.github.com/user-attachments/assets/3fa81a9d-71e3-4c57-a745-9cd660d87f9c)
+![pve-post](/assets/pve-post-install.png)
 
 
 ```bash
