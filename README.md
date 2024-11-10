@@ -11,4 +11,9 @@ As a relative newcomer to Homelabs, Selfhosting and Linux I wanted to simplify t
 
 Forked. Original can be found [here.](https://gist.github.com/enjikaka/52d62c9c5462748dbe35abe3c7e37f9a)
 
->[pimox](/pimox-howto.md)
+## [pimox howto](/pimox-howto.md)
+
+#proxmox
+#raspberrypi5
+#pi5
+#pve
