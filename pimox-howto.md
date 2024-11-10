@@ -1,10 +1,6 @@
----
-title: pimox howto
-date: 2024-10-31 00:55:00 +0500
-categories: [proxmox, pimox, raspberry pi 5]
-tags: [rpi5, howto, pve]
----
-
+#[pimox-png](/assets/pimox.png)
+<a href="url"><img src="/assets/pimox.png" align="center" height="48" width="48" ></a>
+<br><br>
 # Installing Proxmox 8.x on Raspberry Pi 5
 >  Many thanks to the OP of this guide @enjikaka. I've decided to fork and submit a few updates. Progression through unlearning. Numerous guides exist but none were as comprehensive and direct. Minor updates to the `apt repo` and `apt sources` in  Step 8 and a few cosmetic things. 
 
