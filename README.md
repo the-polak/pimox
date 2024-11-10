@@ -1,3 +1,6 @@
+![pimox-logo](/assets/pimox.png)
+<br>
+
 # pimox
 Installing Proxmox on Raspberry Pi 5. 
 
