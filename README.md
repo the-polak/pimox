@@ -1,4 +1,4 @@
-![pimox-logo](/assets/pimox.png)
+<a href="url"><img src="/assets/pimox.png" align="center" height="400" width="400" ></a>
 <br>
 
 # pimox
