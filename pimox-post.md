@@ -1,22 +1,19 @@
 ---
 title: pimox post install
-date: 2024-10-31 00:55:00 +0500
+date: 2025-01-03 00:55:00 +0500
 categories: [proxmox, pimox, raspberry pi 5]
 tags: [rpi5, howto, pve]
 ---
 
 # Post Install
 
-## Glorious Proxmox Helper Script
-### Post Install Script
-- [https://tteck.github.io/Proxmox/](https://tteck.github.io/Proxmox/)  
+## Glorious Proxmox Helper Scripts
+### Post Install and other useful Scripts
+- [https://pimox-scripts.com/scripts](https://pimox-scripts.com/scripts)  
 
 ![pve-post](/assets/pve-post-install.png)
 
 
-```bash
-# Run as root
-bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/post-pve-install.sh)"
 ```
 
 ### LXC Images
@@ -26,5 +23,4 @@ bash -c "$(wget -qLO - https://github.com/tteck/Proxmox/raw/main/misc/post-pve-i
 
 
 
-##### Sources
-[https://tteck.github.io/Proxmox/](https://tteck.github.io/Proxmox/)
+
