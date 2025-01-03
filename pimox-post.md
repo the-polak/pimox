@@ -10,7 +10,7 @@ tags: [rpi5, howto, pve]
 <a href="url"><img src="/assets/pimox.png" align="center" height="400" width="400" ></a>
 <br><br>
 
-## Glorious Proxmox Helper Scripts
+## Glorious Pimox Helper Scripts
 - [https://pimox-scripts.com/scripts](https://pimox-scripts.com/scripts) 
 
 ### Post Install
@@ -21,12 +21,8 @@ bash -c "$(wget -qLO - https://github.com/asylumexp/Proxmox/raw/main/misc/post-p
 
 
 
-
-
-
-### LXC Images
+## MISC LXC Images
 [https://stevetech.me/posts/find-arm64-lxc-templates](https://stevetech.me/posts/find-arm64-lxc-templates)
-
 
 
 
