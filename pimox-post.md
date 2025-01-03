@@ -11,7 +11,7 @@ tags: [rpi5, howto, pve]
 ### Post Install and other useful Scripts
 - [https://pimox-scripts.com/scripts](https://pimox-scripts.com/scripts)  
 
-![pve-post](/assets/pve-post-install.png)
+
 
 
 ```
