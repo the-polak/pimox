@@ -75,7 +75,6 @@ nano /etc/hostname
 ```bash
 pimox5
 # rpi5            <------------ Be sure to delete or comment this line!
-
 ```
 
 ##   7 - Reboot
@@ -95,7 +94,6 @@ echo 'deb [arch=arm64] https://mirrors.apqa.cn/proxmox/debian/pve bookworm port'
 ~~`curl https://global.mirrors.apqa.cn/proxmox/debian/pveport.gpg -o /etc/apt/trusted.gpg.d/pveport.gpg`~~
 ```bash
 curl -L https://mirrors.apqa.cn/proxmox/debian/pveport.gpg | sudo tee /etc/apt/trusted.gpg.d/pveport.gpg >/dev/null
-
 ```
 
 ##   9 - Update and install Proxmox
@@ -165,6 +163,13 @@ You can now reach your Proxmox UI on `http://pimox5.local:8006` or `http://192.1
 
 > [!IMPORTANT]  
 > Replace `192.168.1.xx` with your static IP.
+
+
+<br><br>
+<a href="url"><img src="/assets/pimox-neofetch.png" align="center" height="700" width="700" ></a>
+<br><br>
+
+
 
 # [Post Install](/pimox-post.md)
 
