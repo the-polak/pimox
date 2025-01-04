@@ -166,7 +166,7 @@ You can now reach your Proxmox UI on `http://pimox5.local:8006` or `http://192.1
 
 
 <br><br>
-<a href="url"><img src="/assets/pimox-neofetch.png" align="center" height="700" width="700" ></a>
+<a href="url"><img src="/assets/pimox-neofetch.png" align="center" height="700" width="900" ></a>
 <br><br>
 
 
